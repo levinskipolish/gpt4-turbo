@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+openai = "==0.28.1"
+tiktoken = "*"
+pytest = "*"
+pytest-watch = "*"
+faiss-cpu = "*"
+pygments = "*"
+rich = "*"
+
+[dev-packages]
