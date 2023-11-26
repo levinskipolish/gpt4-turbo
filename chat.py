@@ -109,7 +109,7 @@ conversation = LLMChain(llm=llm, prompt=prompt, verbose=False, memory=memory)
 # Interactive conversation loop
 conv = True
 while conv:
-    user_input = input("\033[32mYou: ")
+    user_input = input("\n\033[32mYou: ")
 
     if user_input == "exit":
         conv = False

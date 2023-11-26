@@ -7,10 +7,5 @@ name = "pypi"
 langchain = "*"
 openai = "==0.28.1"
 tiktoken = "*"
-pytest = "*"
-pytest-watch = "*"
-faiss-cpu = "*"
-pygments = "*"
-rich = "*"
 
 [dev-packages]
