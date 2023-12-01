@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 langchain = "*"
-openai = "==0.28.1"
+openai = "*"
 tiktoken = "*"
+google-search-results = "*"
 
 [dev-packages]
